@@ -12,6 +12,20 @@ One install ships:
 - `skills/munin-followup`: turn one meeting into a follow-up. Each decision Munin's AI wrote is checked against the transcript before it is called confirmed; what the transcript does not support goes to a "needs confirmation" list; a draft message closes it.
 - `skills/munin-recall`: who said what, and when, across meetings, with the exact line cited by meeting id, line id and mm:ss; find a meeting by topic, person or date; compare a recurring meeting across weeks.
 
+## What it looks like
+
+Real runs on Hermes Agent 0.23.0 against the live Munin server, with a demo account that holds two fictional meetings (reasoning output hidden; everything else is the terminal as printed).
+
+"What did my last meeting decide?" Hermes lists the meeting, reads the notes, pulls the transcript and answers with each decision, who agreed, and the clock time of the line:
+
+![Hermes answers what the last meeting decided, with Munin tool calls and clock-timed citations](assets/recall.png)
+
+"Write the follow-up for my last meeting." Three sections: confirmed items with `meeting <id> · mm:ss · L<n>`, items that need confirmation with the line that left them open, and a draft to paste:
+
+![Hermes writes a follow-up in three sections, each item cited to a transcript line](assets/followup.png)
+
+The short version as an animation: [assets/demo.gif](assets/demo.gif).
+
 ## Install
 
 ```bash
