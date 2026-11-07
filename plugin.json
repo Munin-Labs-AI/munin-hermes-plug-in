@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "munin",
+  "version": "0.1.0",
+  "description": "Munin meeting notes for Hermes Agent: ask what was decided in your last meeting, get a follow-up with every action item checked against the transcript and cited by timestamp, and search who said what across meetings. Connects to your Munin account through OAuth. No local code.",
+  "author": {
+    "name": "Munin Labs",
+    "url": "https://muninlabs.ai"
+  },
+  "homepage": "https://muninlabs.ai",
+  "repository": "https://github.com/Munin-Labs-AI/munin-hermes-plug-in",
+  "license": "MIT",
+  "keywords": [
+    "munin",
+    "meetings",
+    "meeting-notes",
+    "transcripts",
+    "follow-up",
+    "action-items",
+    "decisions",
+    "productivity",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "munin": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}

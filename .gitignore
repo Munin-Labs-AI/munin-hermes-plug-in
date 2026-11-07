@@ -1,0 +1,16 @@
+# local notes and evidence never enter the repository
+private/
+review/
+
+# credentials and local state
+.env
+.env.*
+*.token
+*.pem
+*.key
+mcp-tokens/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
