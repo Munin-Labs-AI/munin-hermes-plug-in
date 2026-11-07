@@ -1,6 +1,6 @@
 name: munin
 repo: https://github.com/Munin-Labs-AI/munin-hermes-plug-in
-sha: FILL_WITH_GIT_REV_PARSE_HEAD_40_CHARS
+sha: 5fbcc6905b19ab1bd92a3c407f7175287fd61ce4
 description: >-
   Munin meeting notes for Hermes Agent: ask what was decided in your last meeting, get a
   follow-up with every action item checked against the transcript and cited by meeting id,
@@ -24,6 +24,9 @@ requires_hermes: ">=0.23.0"
 docs_url: https://github.com/Munin-Labs-AI/munin-hermes-plug-in#readme
 version: "0.1.0"
 platforms: []
+screenshots:
+  - https://raw.githubusercontent.com/Munin-Labs-AI/munin-hermes-plug-in/5fbcc6905b19ab1bd92a3c407f7175287fd61ce4/assets/recall.png
+  - https://raw.githubusercontent.com/Munin-Labs-AI/munin-hermes-plug-in/5fbcc6905b19ab1bd92a3c407f7175287fd61ce4/assets/followup.png
 capabilities:
   provides_tools: []
   provides_hooks: []

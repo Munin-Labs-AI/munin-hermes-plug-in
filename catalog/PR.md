@@ -3,7 +3,7 @@
 Adds `plugin-catalog/munin.yaml`, the Munin meeting-notes connector for Hermes Agent.
 
 **Repo:** https://github.com/Munin-Labs-AI/munin-hermes-plug-in (submitted by the repository owner)
-**Version:** 0.1.0 · **Pinned sha:** `FILL_WITH_GIT_REV_PARSE_HEAD_40_CHARS`
+**Version:** 0.1.0 · **Pinned sha:** `5fbcc6905b19ab1bd92a3c407f7175287fd61ce4`
 
 ### What it does
 
@@ -50,4 +50,6 @@ End to end on the same Hermes against the live server with a demo account (ficti
 
 A Munin account is needed. Munin sign-up is currently invite-gated; a demo account with two fictional meetings is available to reviewers on request (and is provided in the hackathon submission form). After `hermes plugins install Munin-Labs-AI/munin-hermes-plug-in`, `hermes plugins enable munin`, `hermes mcp add munin --url https://app.muninlabs.ai/mcp --auth oauth` and `hermes mcp login munin`, ask Hermes "What did my last meeting decide?" and "Write the follow-up for it."
 
-Demo video: FILL_WITH_X_POST_URL
+Demo video: posted on X (link added here once it is up).
+
+Screenshots of the two runs above are in the repository (`assets/recall.png`, `assets/followup.png`) and listed under `screenshots:` in the entry.
